@@ -72,7 +72,7 @@ func init() {
 
 	sendEmailCmd.Flags().StringVarP(&body, "body", "b", "", "body")
 
-	sendEmailCmd.Flags().StringVarP(&subject, "subject", "h", "", "subject")
+	sendEmailCmd.Flags().StringVarP(&subject, "subject", "d", "", "subject")
 
 	sendEmailCmd.MarkFlagRequired("fromEmail")
 
