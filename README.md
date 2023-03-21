@@ -10,8 +10,8 @@ command ``send`` to send the emails which has lot of options
 -f is for fromEmail addess\
 -t is for toEmail address\
 -p is for optional public key\
--s is for optional secret key
--b is for body
+-s is for optional secret key\
+-b is for body\
 -d is for subject
 
 
